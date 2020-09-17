@@ -28,4 +28,10 @@ describe('icon', () => {
     const [icon1, icon2] = block.nodes
     expect(icon1 === icon2).toBe(false)
   })
+
+  it('Icon in decoration', () => {
+    expect('[** [me.icon]]').toMatchSnapshotWhenParsing({
+      hasTitle: false
+    })
+  })
 })

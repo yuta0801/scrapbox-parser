@@ -22,6 +22,31 @@ Array [
 ]
 `;
 
+exports[`icon Icon in decoration: toMatchSnapshotWhenParsing 1`] = `
+Array [
+  Object {
+    "indent": 0,
+    "nodes": Array [
+      Object {
+        "decos": Array [
+          "*-2",
+        ],
+        "nodes": Array [
+          Object {
+            "content": "",
+            "href": "me.icon",
+            "pathType": "relative",
+            "type": "link",
+          },
+        ],
+        "type": "decoration",
+      },
+    ],
+    "type": "line",
+  },
+]
+`;
+
 exports[`icon Multiple icons: toMatchSnapshotWhenParsing 1`] = `
 Array [
   Object {
